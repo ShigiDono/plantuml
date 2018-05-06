@@ -21,12 +21,12 @@
 plantuml <- function(
   x = NULL
   ) {
-  x <- list(
+  y <- list(
     code = x,
     x = x,
     evaluated = FALSE,
     complete = TRUE
   )
-  attr(x, "class") <- "plantuml"
-  return(x)
+  attr(y, "class") <- "plantuml"
+  return(y)
 }
