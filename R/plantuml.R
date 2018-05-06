@@ -19,11 +19,11 @@
 #'  plot( x ) }
 #'
 plantuml <- function(
-  x = NULL
+  str = NULL
   ) {
   y <- list(
-    code = x,
-    x = x,
+    code = str,
+    x = str,
     evaluated = FALSE,
     complete = TRUE
   )
